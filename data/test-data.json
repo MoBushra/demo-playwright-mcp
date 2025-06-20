@@ -1,0 +1,19 @@
+{
+  "contact": {
+    "valid": {
+      "name": "Test User",
+      "email": "test.user@example.com",
+      "message": "This is a test message."
+    },
+    "invalid": {
+      "name": "",
+      "email": "",
+      "message": ""
+    }
+  },
+  "projects": [
+    { "name": "KENT COUNTRY HOUSE", "url": ".*kent-country-house" },
+    { "name": "VICTORIA APARTMENT", "url": ".*victoria-apartment" },
+    { "name": "LOS ANGELES TOWNHOUSE", "url": ".*los-angeles-townhouse" }
+  ]
+} 
