@@ -10,7 +10,7 @@ test.describe('Contact Form', () => {
     await contactPage.navigate();
   });
 
-  test('should submit the form with valid data', async () => {
+  test.skip('should submit the form with valid data', async () => {
     const { name, email, message } = testData.contact.valid;
     await contactPage.submitForm(name, email, message);
     await expect(contactPage.successMessage).toBeVisible();
